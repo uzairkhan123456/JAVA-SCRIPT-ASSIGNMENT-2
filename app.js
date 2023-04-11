@@ -106,6 +106,62 @@
 //   console.log(row);
 // }
 
+ //QUESTION NO 1
 
+// function createAdder (num){ //1
+//   return function(x){
+//     return x + num ;
+//   }
+// }
+// const addFive = 
+// createAdder (5) 
+// console.log(addFive(10));
+
+//  //QUESTION NO 2
+
+// function searchArray(arr, value) {
+//     if (arr.length === 0) {
+//       return false;
+//     }
+//     if (arr[0] === value) {
+//       return true;
+//     }
+//     return searchArray(arr.slice(1), value);
+//   }
+  
+  
+//   const myArray = [1, 2, 3, 4, 5];
+//   console.log(searchArray(myArray, 3)); 
+//   console.log(searchArray(myArray, 6));
+
+//  //QUESTION NO 3
+
+//  function addParagraph(text) {
+//     const newParagraph = document.createElement("p");
+//     newParagraph.textContent = text;
+//     const body = document.querySelector("body");
+//     body.appendChild(newParagraph);
+//   }
+//   addParagraph("Hello, world!");
+
+//  //QUESTION NO 4
+
+// function addListItem(text) {
+//     const newListItem = document.createElement("li");
+//     newListItem.textContent = text;
+//     const list = document.querySelector("ul");
+//     list.appendChild(newListItem);
+//   }
+
+//   addListItem("Apples");
+  
+ //  //QUESTION NO 5
+
+ function changeBackgroundColor(element, color) {
+    element.style.backgroundColor = color;
+  } 
+  const myElement = document.querySelector("#my-element");
+  changeBackgroundColor(myElement, "red");
+  
   
   
